@@ -4,7 +4,7 @@
  The App.js file just contains 3 components, and these components can be found under the src/components directory.
  Each comonent has a CSS module associated with it which contains all the CSS styling for that specific component.
  
- Unfortunately I am short on time, otherwise I would have tried to refactor BottomComponent using CSS grid. I think that would have made the styling more robust for different screen sizing.
+ Unfortunately I am short on time, otherwise I would have tried to refactor BottomComponent using CSS grid. I think that would have made the styling more robust for different screen sizing. For now, I have utilized mutliple media queries to make the BottomComponent responsive.
 
 ### Running the App
 
