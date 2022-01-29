@@ -7,44 +7,44 @@ import {ReactComponent as PurpleIcon } from '../assets/purple-icon.svg';
 import {ReactComponent as RedIcon } from '../assets/red-icon.svg';
 import styles from "./MiddleComponent.module.css";
 
-const MiddleComponent = () => {
+const MiddleComponent = ({data}) => {
     return (
         <section className={styles.componentWrapper}>
             <div className={styles.container}>
                 <div className={styles.elemWrapper}>
                     <BlueIcon />
                     <p>
-                        Growing top line revenue and cash flows.
+                        {data.blueText}
                     </p>
                 </div>
                 <div className={styles.elemWrapper}>
                     <OrangeIcon />
                     <p>
-                        Recognizable moat that is durable and we suspect will be intact for a long time.
+                        {data.orangeText}
                     </p>
                 </div>
                 <div className={styles.elemWrapper}>
                     <GreenIcon />
                     <p>
-                        Underpinned by secular growth trends.
+                        {data.greenText}
                     </p>
                 </div>
                 <div className={styles.elemWrapper}>
                     <PurpleIcon />
                     <p>
-                        Has pricing power. Not commoditized product or service.
+                        {data.purpleText}
                     </p>
                 </div>
                 <div className={styles.elemWrapper}>
                     <YellowIcon />
                     <p>
-                        Growing top line revenue and cash flows.
+                        {data.yellowText}
                     </p>
                 </div>
                 <div className={styles.elemWrapper}>
                     <RedIcon />
                     <p>
-                        Management aligned with long term performance and execution.
+                        {data.redText}
                     </p>
                 </div>
             </div>
