@@ -1,0 +1,105 @@
+.container {
+    width:100%;
+    display: flex;
+
+}
+
+.fig {
+    width: 800px;
+    position: relative;
+    left: calc(50% - 575px);
+    margin: 10px;
+}
+
+.fig img {
+    width: 100%;
+}
+
+.caption {
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 67%;
+    background:#E9F1FD;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    width: 600px;
+    box-shadow: 1px 1px 7px 1px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.caption h2 {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.caption p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #595959;
+}
+
+.space {
+    height: 75px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .fig {
+        width: 600px;
+        left: calc(50% - 510px);
+    }
+    .space {
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    .fig {
+        width: 450px;
+        left: calc(50% - 450px);
+    }
+
+    .space {
+        height: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 920px) {
+    .caption {
+        padding: 10px;
+        width: 350px;
+    }
+    .caption p {
+        font-size:28px;
+    }
+    .caption p {
+        font-size: 14px;
+    }
+    .fig {
+        left: calc(50% - 350px);
+    }
+    .space {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 705px) {
+    .container {
+        justify-content: center;
+    }
+    .fig {
+        left: 0px;
+    }
+    .caption {
+        width: 95vw;
+        left: 3%;
+        top: 80%;
+        width: 94%;
+    }
+
+    .space {
+        height: 600px;
+    }
+}
