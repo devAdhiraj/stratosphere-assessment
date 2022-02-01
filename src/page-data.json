@@ -1,18 +1,39 @@
 {
-    "TopComponent": {
-        "title": "Investment Strategy",
-        "description": "At Stratosphere we are looking to own the highest quality businesses available with consistently growing cash flows. There are several factors in what makes a great business to own for the long-term. We must be able to prove that the company has the following characteristics:"
-    },
-    "MiddleComponent": {
-        "blueText": "Growing top line revenue and cash flows.",
-        "orangeText": "Recognizable moat that is durable and we suspect will be intact for a long time.",
-        "greenText": "Underpinned by secular growth trends.",
-        "purpleText": "Has pricing power. Not commoditized product or service.",
-        "yellowText": "Growing top line revenue and cash flows.",
-        "redText": "Management aligned with long term performance and execution."
-    },
-    "BottomComponent": {
-        "figTitle": "A Tagline About The Team",
-        "figDescript": "An engineer by trade, Braden began building quant models for publicly traded stocks in engineering school. Stratosphere Investing was originally his blog and passion project to share investing ideas, models and equity research. Through the years, he found there was no reliable low-cost software powered analytics and research platform for managing his own investment portfolio."
-    }
+  "TopComponent": {
+    "title": "Investment Strategy",
+    "description": "At Stratosphere we are looking to own the highest quality businesses available with consistently growing cash flows. There are several factors in what makes a great business to own for the long-term. We must be able to prove that the company has the following characteristics:",
+    "descriptionArray": [
+      "At Stratosphere we are looking to own the highest quality businesses available with consistently growing cash flows.",
+      "There are several factors in what makes a great business to own for the long-term. We must be able to prove that the company has the following characteristics:"
+    ]
+  },
+  "MiddleComponent": {
+    "textItems": [
+      { "text": "Growing top line revenue and cash flows.", "color": "blue" },
+      {
+        "text": "Recognizable moat that is durable and we suspect will be intact for a long time.",
+        "color": "orange"
+      },
+      { "text": "Underpinned by secular growth trends.", "color": "green" },
+      {
+        "text": "Has pricing power. Not commoditized product or service.",
+        "color": "purple"
+      },
+      { "text": "Growing top line revenue and cash flows.", "color": "yellow" },
+      {
+        "text": "Management aligned with long term performance and execution.",
+        "color": "red"
+      }
+    ],
+    "blueText": "Growing top line revenue and cash flows.",
+    "orangeText": "Recognizable moat that is durable and we suspect will be intact for a long time.",
+    "greenText": "Underpinned by secular growth trends.",
+    "purpleText": "Has pricing power. Not commoditized product or service.",
+    "yellowText": "Growing top line revenue and cash flows.",
+    "redText": "Management aligned with long term performance and execution."
+  },
+  "BottomComponent": {
+    "figTitle": "A Tagline About The Team",
+    "figDescript": "An engineer by trade, Braden began building quant models for publicly traded stocks in engineering school. Stratosphere Investing was originally his blog and passion project to share investing ideas, models and equity research. Through the years, he found there was no reliable low-cost software powered analytics and research platform for managing his own investment portfolio."
+  }
 }

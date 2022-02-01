@@ -28,6 +28,10 @@
     font-size: 14px;
 }
 
+.blue {
+    color: blue;
+}
+
 @media only screen and (max-width: 490px) {
     .elemWrapper {
         flex-basis: 50%;
